@@ -1,9 +1,15 @@
+body{
+    background-color: #D9C7C5;;
+}
 .form{
     box-sizing: border-box;
     height: auto;
-    margin: 1% auto;
-    padding: 2% 25%;
+    margin: 1% 30%;
+    padding: 3% 0;
     text-align: center;
+    border: 4px outset #BF6A4B;
+    border-radius: 15px;
+    background-color: white;
 }
 .form > h1{
     margin: 0 auto;
@@ -41,6 +47,7 @@
     color: #26150F;
 }
 .continue{
+    font-size: large;
     color: white;
     border: none;
     border-radius: 10px;
@@ -50,7 +57,5 @@
 .continue:active{
     color: #BF6A4B;
     border: 2px solid #BF6A4B;
-    border-radius: 10px;
-    padding: 20px 30px;
     background: white;
 }
